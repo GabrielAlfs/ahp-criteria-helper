@@ -8,6 +8,9 @@
   "description": "A simple package that helps to find the weights of n criteria, and also calculate your consistency ratio.",
   "main": "dist/index.js",
   "types": "dist",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
   "repository": "git@github.com:GabrielAlfs/ahp-criteria-helper.git",
   "author": "Gabriel Alves <l.luis.gabriel@outlook.com>",
   "license": "MIT",
