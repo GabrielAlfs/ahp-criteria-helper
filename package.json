@@ -5,6 +5,9 @@
   "repository": "git@github.com:GabrielAlfs/ahp-criteria-helper.git",
   "author": "Gabriel Alves <l.luis.gabriel@outlook.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.ts"
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.31.2",
     "@typescript-eslint/parser": "^4.31.2",
@@ -15,7 +18,9 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.13",
     "prettier": "^2.4.1",
+    "ts-node": "^10.2.1",
     "typescript": "^4.4.3"
   },
   "config": {
