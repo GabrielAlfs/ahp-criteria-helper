@@ -1,6 +1,10 @@
 {
   "name": "ahp-criteria-helper",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "keywords": [
+    "AHP",
+    "Analytic Hierarchy Process"
+  ],
   "description": "A simple package that helps to find the weights of n criteria, and also calculate your consistency ratio.",
   "main": "dist/index.js",
   "types": "dist",
