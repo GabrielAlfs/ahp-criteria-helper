@@ -1,14 +1,18 @@
 {
   "name": "ahp-criteria-helper",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "0.1.0",
+  "description": "A simple package that helps to find the weights of n criteria, and also calculate your consistency ratio.",
+  "main": "dist/index.js",
+  "types": "dist",
   "repository": "git@github.com:GabrielAlfs/ahp-criteria-helper.git",
   "author": "Gabriel Alves <l.luis.gabriel@outlook.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon src/index.ts"
+    "dev": "nodemon src/index.ts",
+    "build": "tsc --project ./tsconfig.json"
   },
   "devDependencies": {
+    "@types/node": "^16.9.6",
     "@typescript-eslint/eslint-plugin": "^4.31.2",
     "@typescript-eslint/parser": "^4.31.2",
     "commitizen": "^4.2.4",
